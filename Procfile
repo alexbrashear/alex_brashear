@@ -1,1 +1,1 @@
-web: sh -c 'cd {{ project_name }} && python manage.py collectstatic --noinput --settings='{{ project_name }}.settings.production' && gunicorn {{ project_name }}.wsgi'
+web: sh -c 'cd alex_brashear && python manage.py collectstatic --noinput --settings='alex_brashear.settings.production' && gunicorn alex_brashear.wsgi'
