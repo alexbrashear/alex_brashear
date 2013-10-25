@@ -1,1 +1,20 @@
-/*! project specific CSS goes here. */
+.navigation {
+	background-color: #1E90FF;
+}
+.header {
+	text-align: center;
+	font-size: 24px;
+}
+.goldmine {
+	background-color: #F0F8FF;
+}
+.bibliometrics {
+	background-color: #DDA0DD;
+}
+.blur {
+	-webkit-filter: blur(20px);
+}
+body {
+	background-image: url('cach.jpg');
+	background-repeat: no-repeat;
+}
