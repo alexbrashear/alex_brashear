@@ -1,9 +1,87 @@
-{% extends 'base.html' %}
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<title>
+		Alex Brashear
+	</title>
+</head>
+<body background="cach.jpg">
+	<nav class="navbar navbar-default navigation">
+		
+	</nav>
+	<div class="container">
+		
+		<div class="jumbotron header">
+			<div>
+				<h1>Alex Brashear</h1>
+				<p>
+					I am a student majoring in Computer Science and minoring in Mechanical Engineering at the University of Pennsylvania, check out some of the stuff I have done here
+				</p>
+				<div class="row">
+					<a href="#goldmine">GoldMine</a> | <a href="#bib">Bibliometrics</a> | <a href="">Camera</a>
+				</div>
 
-{% block title %}Welcome to alex_brashear{% endblock %}
+			</div>
+		</div>
+		<div class="jumbotron header">
+			<h3>Get at me</h3>
+			<div class="row">
+				<a href="">Resume</a>
+				<a href="">Github</a>
+				<a href="">Linkedin</a>
+			</div>
+		</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br>
+		<br>
+		</div>
+		<div class="goldmine" id="goldmine">
+			<div class="container">
+				<h1>GoldMineJS</h1>
+				<p><img src="goldmine.png" align="right">
+					This open-source project used code coverage to determine excessive features in a javascript development library and remove them so that each time the webpage loads it will only have to load the parts of the library the developer actually needs.
+					</p>
+					<p><a href="http://razzius.github.io/goldmine">Website</a> | 
+					<a href="http://github.com/razzius/goldmine">Source Code</a> | 
+					<a href="https://npmjs.org/package/goldmine">npm docs</a></p>
+			</div>
+			<br>
+		</div>
+		<br><br><br><br><br>
+		<div class="bibliometrics" id="bib">
+			<div class="container">
+				<h1 align="right">Bibliometrics Research</h1>
+				<p><img src="graph.png" align="left">
+					This past summer I worked on a research project under Professor Lyle Ungar involving the diffusion of key words across different genres of science literature.  I used citation maps (<a href="http://mapofscience.com">example here</a>) to try and prove the hypothesis that the citation distance of departments was longer if the department was more "unique."  (the method of calculating the percieved uniqueness or entropy of a department is outlined in some of the source code).  
+				</p>
+				<p><a href="http://github.com/alexbrashear/bibliometrics_clean">Source Code</a> -- Some of it is a little messy, it was my first experience with python</p>
+			</div>
+			<br><br>
+		</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br>
+	<script type="text/javascript" src="jquery.easing.1.3.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$('a').bind('click',function(event){
+				var $anchor = $(this);
 
-{% block content %}
-
-<h1>Start here, go anywhere (preferably Heroku)</h1>
-
-{% endblock %}
+				$('html, body').stop().animate({
+					scrollTop: $($anchor.attr('href')).offset().top
+				}, 1500,'easeInOutExpo');
+                    /*
+                    if you don't want to use the easing effects:
+                    	$('html, body').stop().animate({
+                    		scrollTop: $($anchor.attr('href')).offset().top
+                    	}, 1000);
+                    */
+                    event.preventDefault();
+                });
+		});
+	</script>
+	<script src="http://tympanus.net/codrops/adpacks/demoad.js"></script>
+</body>
+</html>
