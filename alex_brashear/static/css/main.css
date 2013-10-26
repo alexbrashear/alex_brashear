@@ -13,6 +13,9 @@
 }
 .bibliometrics {
 	background-color: LemonChiffon;
+	border-top: 1px solid: #ccc;	
+	border-left: 1px solid: #ccc;
+	border-right: 1px solid: #ccc;
 }
 .blur {
 	-webkit-filter: blur(20px);
@@ -20,5 +23,5 @@
 body {
 	background-image: url('../img/cach.jpg');
 	background-repeat: no-repeat;
-	background-color: LightSkyBlue;
+	background-color: #EDEDED;	
 }
