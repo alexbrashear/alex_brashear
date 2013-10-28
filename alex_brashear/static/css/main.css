@@ -23,7 +23,8 @@
 body {
 	background-image: url('../img/cach.jpg');
 	background-repeat: no-repeat;
-	background-color: #EDEDED;	
+	background-color: SeaGreem;
+	font-family: Century Gothic, sans-serif;	
 }
 .icons {
 	text-align: center;
