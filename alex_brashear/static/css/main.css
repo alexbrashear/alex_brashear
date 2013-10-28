@@ -1,5 +1,5 @@
 .jumbotron {
-	opacity: 0.7;
+	opacity: 0.5;
 }
 .navigation {
 	background-color: #1E90FF;
@@ -28,3 +28,6 @@ body {
 .icons {
 	text-align: center;
 }
+.divs {
+	border-radius:15px;
+	border-width: thick;
