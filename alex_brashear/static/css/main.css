@@ -29,6 +29,14 @@ body {
 .icons {
 	text-align: center;
 }
+.imggold {
+	margin-left:2px;
+}
+.imgbib {
+	margin-right:2px;
+}
 .divs {
 	border-radius:15px;
 	border-width: thick;
+}
+
