@@ -52,3 +52,18 @@ p {
 .youtube {
 	background-color: Moccasin;
 }
+
+<!-- borders -->
+.youtubeborder 
+{
+border-style:solid;
+border-width:thick;
+border-color: Moccasin;
+}
+.bibborder 
+{
+border-style:solid;
+border-width:thick;
+border-color: LemonChiffon;
+}
+
