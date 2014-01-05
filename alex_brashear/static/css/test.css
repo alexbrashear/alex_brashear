@@ -1,0 +1,72 @@
+
+<!------------------ headers -------------------->
+.intro {
+	background-image: url('../img/cach.jpg');
+	background-repeat: no-repeat;
+	font-family: Century Gothic, sans-serif;	
+	background-color: #EDEDED;
+}
+.jumbotron {
+	opacity: 0.5;
+}
+.navigation {
+	background-color: #1E90FF;
+}
+.header {
+	text-align: center;
+	font-size: 24px;
+}
+.goldmine {
+	background-color: #F0F8FF;
+}
+.bibliometrics {
+	background-color: LemonChiffon;
+	border-top: 1px solid: #ccc;	
+	border-left: 1px solid: #ccc;
+	border-right: 1px solid: #ccc;
+}
+.blur {
+	-webkit-filter: blur(20px);
+}
+
+.icons {
+	text-align: center;
+}
+.imggold {
+	margin-left:2px;
+}
+.imgbib {
+	margin-right:2px;
+}
+.divs {
+	border-radius:15px;
+	border-width: thick;
+}
+h2 {
+	font-size: 500%;
+	font-weight: lighter;
+}
+#title {
+	font-size: 100%;
+}
+p {
+	font-size: 200%;
+}
+.youtube {
+	background-color: Moccasin;
+}
+
+<!-- borders -->
+.youtubeborder 
+{
+border-style:solid;
+border-width:thick;
+border-color: Moccasin;
+}
+.bibborder 
+{
+border-style:solid;
+border-width:thick;
+border-color: LemonChiffon;
+}
+
