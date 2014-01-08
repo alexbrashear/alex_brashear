@@ -1,0 +1,17 @@
+img.center {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+body {
+	background-color: #6F81D6;
+}
+.body1 {
+	background-color: #EDEDED;
+}
+.body2 {
+	background-color: white;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right:1px solid #ccc;
+}
