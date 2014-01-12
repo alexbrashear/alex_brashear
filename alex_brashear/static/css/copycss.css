@@ -3,15 +3,30 @@ img.center {
 	margin-right: auto;
 	margin-left: auto;
 }
+.imageclass {
+	content: url(../static/img/home.png);
+}
+.nav-container {
+    text-align: center;
+}
+.nav-container ul {
+    display: inline-block;
+}
 body {
 	background-color: #6F81D6;
 }
 .body1 {
 	background-color: #EDEDED;
 }
+
+/* main body */
 .body2 {
 	background-color: white;
 	border-top: 1px solid #ccc;
 	border-left: 1px solid #ccc;
 	border-right:1px solid #ccc;
+}
+.imgsize {
+	width: 60%;
+	height: auto;
 }
